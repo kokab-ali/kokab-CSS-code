@@ -5,64 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/index2.css">
+
+
 </head>
 
-<body style="background-image: url(./background.webp); background-size: 100% 100%;">
+<body class="background-images">
 
-    <h1 style="color: #e7ba3f91;">Movie ticket form</h1>
+    <h1 class="a-body">Movie ticket form</h1>
     <hr>
 
     <form action="movieticket.html" method="post">
         <div>
-            <label style="color: aliceblue;" for="Movietitle">Movie title</label> <br>
+            <label class="white-text-color" for="Movietitle">Movie title</label> <br>
             <input type="text" id="Movietitle" name="Movietitle">
 
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffff;" for="Fullname">Full name</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Fullname">Full name</label> <br>
             <input type="text" id="Fullname" name="Fullname">
 
         </div>
-        <div style="margin-top: 20px;">
-            <div> <label style="color: #ffffff;" for="Password">Password</label> </div>
+        <div class="margin-top-20">
+            <div> <label class="white-text-color" for="Password">Password</label> </div>
             <input type="password" id="password" name="password">
         </div>
         <div>
-            <div style="color: #ffffff;">
-                <label for="Gender">Gender</label>
+            <div class="color-body">
+                <label class="white-text-color" for="Gender">Gender</label>
             </div>
-            <div style="color: #ffffff;">
+            <div class="color-body2">
                 <input type="radio" id="male" value="male" name="gender">
-                <label for="male">male</label>
+                <label class="white-text-color" for="male">male</label>
             </div>
-            <div style="color: #ffffff;">
+            <div class="color-body3">
                 <input type="radio" id="female" value="female" name="gender">
-                <label for="female">female</label>
+                <label class="white-text-color" for="female">female</label>
             </div>
-            <div style="color: #ffffff;">
+            <div class="color-body4">
                 <input type="radio" id="Others" value="Others" name="gender">
-                <label for="Others">Others</label>
+                <label class="white-text-color" for="Others">Others</label>
             </div>
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="Date">Date</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Date">Date</label> <br>
             <input type="date" id="Date">
         </div>
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="Time">Time</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Time">Time</label> <br>
             <input type="time" id="Time" name="time">
 
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="Address">Address</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Address">Address</label> <br>
             <textarea name="Address" id="Address"></textarea>
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="City">City</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="City">City</label> <br>
             <select name="City" id="City">
                 <option value=""></option>
                 <option value="noida">noida</option>
@@ -71,21 +74,21 @@
             </select>
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="Numberoftickets">Number of tickets</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Numberoftickets">Number of tickets</label> <br>
             <input type="number" id="Numberoftickets" name="numberOfTickets">
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="Row">Row</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="Row">Row</label> <br>
             <input type="number" id="Row" name="Row">
         </div>
 
-        <div style="margin-top: 20px;">
-            <label style="color: #ffffffff;" for="seatnumber">Seat number</label> <br>
+        <div class="margin-top-20">
+            <label class="white-text-color" for="seatnumber">Seat number</label> <br>
             <input type="number" id="seatnumber" name="seatnumber">
         </div>
-        <input style="margin-top: 20px; background-color: green;" type="submit" value="submit">
+        <input class="submit-body margin-top-20" type="submit" value="submit">
 
 
     </form>

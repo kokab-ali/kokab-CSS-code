@@ -1,0 +1,23 @@
+  .a-body {
+      color: #e7ba3f91;
+  }
+
+  .movie-title {
+      color: aliceblue;
+  }
+
+  .submit-body {
+      background-color: green;
+  }
+
+  .white-text-color {
+      color: #ffffff;
+  }
+
+  .margin-top-20 {
+      margin-top: 20px;
+  }
+  .background-images{
+    background-image: url(../background.webp);
+    background-size: 100% 100%;
+  }
