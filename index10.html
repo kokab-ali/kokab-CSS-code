@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-1 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: aliceblue;
+            display: inline-block;
+        }
+
+
+        .box-2 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            display: inline-block;
+        }
+
+        #box3 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            display: inline-block;
+        }
+
+        body {
+            background-color: azure;
+            padding: 50px;
+        }
+
+        span {
+            font-size: 3em;
+            background-color: beige;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 8px;
+            border: 1px solid grey;
+            margin: 4px;
+            display: inline-block;
+        }
+
+        .item-1 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: aliceblue;
+            display: inline-block;
+        }
+
+        .item-1>.item-2 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            background-color: beige;
+            display: inline-block;
+        }
+        .item-1>.item-3 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 60px;
+            height: 60px;
+            background-color: brown;
+            display: inline-block;
+        }
+
+        .item-1>.item-2>.item-3 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            background-color: blanchedalmond;
+            display: inline-block;
+        }
+
+
+        .item-2,
+        .item-3 {
+            margin: 20px;
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-1">
+    </div>
+
+    <div class="box-2">
+    </div>
+
+    <div id="box3">
+    </div>
+
+    <span>Some text1</span>
+    <span>Some text2</span>
+    <span>Some text3</span>
+    <span>Some text4</span>
+
+
+    <br><br>
+
+    <div class="item-1">
+        <div class="item-2">
+            <div class="item-3">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="item-2">
+        <div class="item-3">
+
+        </div>
+    </div>
+
+    <div class="item-1">
+        <div class="item-3">
+
+        </div>
+    </div>
+
+    <div class="item-3">
+    </div>
+</body>
+
+</html>
