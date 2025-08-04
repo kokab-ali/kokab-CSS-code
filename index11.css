@@ -1,0 +1,29 @@
+ .box-1 {
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+            display: inline-block
+        }
+
+        #box-2 {
+            margin: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: antiquewhite;
+            display: inline-block;
+        }
+
+        div {
+            margin: 20px;
+            border: 2px dotted black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: crimson;
+            display: inline-flex;
+        }
