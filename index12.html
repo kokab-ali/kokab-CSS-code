@@ -8,26 +8,37 @@
     <style>
         .table-h {
             background-color: black;
+           
             
         }
 
         th {
             padding: 10px;
-            color: white;
-            outline: none;
-            border: none;
-            background-color: black;
-            border-spacing: 0px;
+            color: white;  
+        }
+        .custom-table{
             border-collapse: collapse;
+            border-radius: 8px;
+        }
+        td{
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-bottom: 12px;
+            padding-top: 12px;
+            color: gray;
+          
+        }
+        .table-body{
+            background-color: rgb(241, 236, 230);
         }
     </style>
 </head>
 
 <body>
     <div>
-        <table>
-            <thead>
-                <tr class="table-h">
+        <table class="custom-table">
+            <thead class="table-h">
+                <tr>
                     <th>Date</th>
                     <th>Order id</th>
                     <th>Name</th>
@@ -36,7 +47,7 @@
                     <th>Total</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="table-body">
                 <tr>
                     <td>2017-09-29 01:22</td>
                     <td>200398</td>
