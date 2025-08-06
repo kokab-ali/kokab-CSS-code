@@ -1,22 +1,27 @@
   body {
-            background-color: rgb(5, 79, 81);
-        }
+      background-color: rgb(5, 79, 81);
+  }
 
-        th {
-            background-color: rgb(3, 41, 43);
-            color: yellow;
-            padding: 8px;
-        }
+  th {
+      background-color: rgb(3, 41, 43);
+      color: yellow;
+      padding-right: 24px;
+      padding-left: 24px;
+      padding-bottom: 16x;
+      padding-top: 16px;
+      text-align: left;
+  }
 
-        .costum-table {
-            border-collapse: collapse;
-        }
+  .costum-table {
+      border-collapse: collapse;
+  }
 
-        td {
-            background-color: rgb(12, 65, 68);
-            color: white;
-            padding-right: 24px;
-            padding-left: 24px;
-            padding-bottom: 16x;
-            padding-top: 16px;
-        }
+  td {
+      background-color: rgb(12, 65, 68);
+      color: white;
+      padding-right: 24px;
+      padding-left: 24px;
+      padding-bottom: 16x;
+      padding-top: 16px;
+      text-align: left;
+  }
