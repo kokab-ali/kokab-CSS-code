@@ -1,0 +1,29 @@
+  body {
+      background-color: hsl(191.78deg 100% 20.98%);
+  }
+
+  .costum-table {
+      border-collapse: collapse;
+      background-color: hsl(196.27deg 96.72% 11.96%);
+  }
+
+  .costum-table td,
+  .costum-table th {
+      padding-right: 24px;
+      padding-left: 24px;
+      padding-bottom: 16px;
+      padding-top: 16px;
+      text-align: left;
+  }
+
+  .costum-table thead {
+      color: yellow;
+  }
+
+  .costum-table tbody {
+      color: white;
+  }
+
+  .costum-table tbody tr:nth-child(odd) {
+      background-color: hsl(196deg 94.94% 15.49%);
+  }

@@ -1,0 +1,56 @@
+  body {
+      padding: 20px;
+      background-color: hsl(228deg 55.56% 98.24%);
+  }
+
+  .costum-table {
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0px 1px 6px rgb(231, 231, 231);
+  }
+
+  .costum-table tr {
+      
+  }
+
+  .costum-table th {
+      background-color: rgb(96, 32, 240);
+      color: rgb(255, 255, 255);
+  }
+
+  .costum-table th,
+  .costum-table td {
+      padding-left: 48px;
+      padding-right: 48px;
+      padding-bottom: 24px;
+      padding-top: 24px;
+      text-align: center;
+  }
+
+  .costum-table td button {
+      background-color: rgb(94, 34, 229);
+      color: white;
+      padding: 8px;
+      border: 1px solid rgb(77, 27, 192);
+      border-radius: 2px;
+  }
+
+  .costum-table tr td:nth-child(odd) {
+    background-color: hsl(231.43deg 46.67% 94.12%);
+    border-bottom: 2px solid rgb(223, 221, 221);
+  }
+  .costum-table tr td:nth-child(even) {
+    border-bottom: 2px solid rgb(235, 233, 233);
+  }
+
+  .costum-table tbody tr:nth-child(2) td:nth-child(5) {
+    background-color: brown;
+  }
+
+  .costum-table tbody tr:nth-child(5) td:nth-child(2) {
+    background-color: aqua;
+  }
+
+  .costum-table thead tr:nth-child(1) th:nth-child(6) {
+    color: aqua;
+  }
