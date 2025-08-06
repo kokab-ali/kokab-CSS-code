@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            padding: 8px;
+            background-color: hsl(0deg 0% 99.8%);
+        }
+
+        .costum-table {
+            border-collapse: collapse;
+        }
+
+        .costum-table td,
+        .costum-table th {
+            text-align: left;
+            padding-right: 48px;
+            padding-left: 48px;
+            padding-bottom: 24px;
+            padding-top: 24px;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <table>
+        <table class="costum-table">
             <thead>
                 <tr>
                     <td></td>
@@ -34,6 +55,8 @@
                     <td>13</td>
                     <td>52</td>
                 </tr>
+            </tbody>
+            <tfoot>
                 <tr>
                     <td>Total</td>
                     <td>36</td>
@@ -41,7 +64,7 @@
                     <td>33</td>
                     <td>100</td>
                 </tr>
-            </tbody>
+            </tfoot>
         </table>
     </div>
 </body>
