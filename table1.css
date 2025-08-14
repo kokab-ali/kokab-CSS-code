@@ -1,0 +1,95 @@
+   body {
+            padding: 8px;
+            background-color: hsl(0deg 0% 99.8%);
+            text-align: center;
+        }
+
+        .costum-table {
+            border-collapse: collapse;
+        }
+
+        .costum-table thead tr:nth-child(1) th:nth-last-child(1) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table thead tr:nth-child(1) th:nth-last-child(2) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table thead tr:nth-child(1) th:nth-last-child(3) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table thead tr:nth-child(1) th:nth-last-child(4) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(1) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(2) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(3) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(4) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(5) {
+            background-color: hsl(44.4deg 100% 90.2%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(1) {
+            background-color: hsl(223.85deg 54.17% 90.59%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(2) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(3) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(4) {
+            background-color: hsl(0deg 0% 94.9%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(5) {
+            background-color: hsl(44.4deg 100% 90.2%);
+        }
+
+        .costum-table tfoot tr:nth-child(1) td:nth-child(1) {
+            background-color: hsl(223.2deg 51.02% 90.39%);
+        }
+
+        .costum-table tfoot tr:nth-child(1) td:nth-child(2) {
+            background-color: hsl(44.4deg 100% 90.2%)
+        }
+
+        .costum-table tfoot tr:nth-child(1) td:nth-child(3) {
+            background-color: hsl(44.4deg 100% 90.2%)
+        }
+
+        .costum-table tfoot tr:nth-child(1) td:nth-child(4) {
+            background-color: hsl(44.4deg 100% 90.2%)
+        }
+
+        .costum-table tfoot tr:nth-child(1) td:nth-child(5) {
+            background-color: hsl(44.4deg 100% 90.2%)
+        }
+
+        .costum-table td,
+        .costum-table th {
+            padding-right: 48px;
+            padding-left: 48px;
+            padding-bottom: 24px;
+            padding-top: 24px;
+            border: 1px solid black;
+            font-weight: bold;
+        }
