@@ -10,14 +10,69 @@
             padding: 24px;
         }
 
+        .costum-table tbody {
+            background-color: hsl(194.12deg 100% 40%);
+        }
+
         .costum-table td,
         .costum-table th {
-            padding-right: 48px;
-            padding-left: 48px;
-            padding-bottom: 24px;
-            padding-top: 24px;
-            border: 1px solid black;
-            font-weight: bold;
+            padding-right: 32px;
+            padding-left: 32px;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            text-align:center
+        }
+
+        .costum-table thead {
+            background-color: hsl(0deg 0% 90.98%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(6) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(7) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(1) {
+            background-color: hsl(339.86deg 76.04% 62.35%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(2) {
+            background-color: hsl(330.41deg 100% 42.55%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(3) {
+            background-color: hsl(174.86deg 86.21% 39.8%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(4) {
+            background-color: hsl(330.41deg 100% 42.55%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(5) {
+            background-color: hsl(174.86deg 86.21% 39.8%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(6) {
+            background-color: hsl(26.84deg 95% 47.06%);
+        }
+
+        .costum-table tbody tr:nth-child(3) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(2) {
+            background-color: hsl(332.95deg 100% 43.92%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(6) {
+            background-color: hsl(332.95deg 100% 43.92%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(7) {
+            background-color: hsl(332.95deg 100% 43.92%);
         }
     </style>
 
@@ -25,7 +80,7 @@
 
 <body>
     <div>
-        <table>
+        <table class="costum-table">
             <thead>
                 <tr>
                     <th>Monday</th>
@@ -47,33 +102,89 @@
                         <div><span>Public Swim</span></div>
                         <div><span>06:30 - 09:00</span></div>
                     </td>
-                    <td>Public Swim 06:30 - 09:00</td>
-                    <td>Public Swim 06:30 - 11:15</td>
-                    <td>Public Swim 06:30 - 09.00</td>
-                    <td>Lane Swim 08:00 - 09.00</td>
-                    <td>Lane Swim 08.00 - 09.00</td>
+                    <td>
+                        <div><span>Public Swim</span></div>
+                        <div><span>06:30 - 09:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Public Swim</span></div>
+                        <div><span> 06:30 - 11:15</span></div>
+                    </td>
+                    <td>
+                        <div><span>Public Swim</span></div>
+                        <div><span>06:30 - 09.00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span> 08:00 - 09.00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span>08.00 - 09.00</span></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Aquacise 10:30 - 11:15</td>
-                    <td>Aqua Jog 09:15 - 10.00</td>
-                    <td>Education Swimming Lessons 09:00 - 12:00</td>
-                    <td>Aquacise 11:15 - 12:00</td>
-                    <td>Education Swimming Lessons 09.00 - 12:00</td>
+                    <td>
+                        <div><span>Aquacise</span></div>
+                        <div><span>10:30 - 11:15</span></div>
+                    </td>
+                    <td>
+                        <div><span>Aqua Jog</span></div>
+                        <div><span>09:15 - 10:00</span></div>
+                    </td>
+                    <td>
+                        <div>Education<span></span></div>
+                        <div><span>Swimming Lessons</span></div>
+                        <div><span> 09:00 - 12:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Aquacise</span></div>
+                        <div><span>11:15 - 12:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Education</span></div>
+                        <div><span>Swimming Lessons</span></div>
+                        <div><span> 09.00 - 12:00</span></div>
                     <td>
                         <div><span>Oldham Active</span></div>
                         <div><span>Kids Swimming Lessons</span></div>
                         <div><span>09.00 - 13:00</span></div>
                     </td>
-                    <td>Public Swim 09:00 - 11:00</td>
+                    <td>
+                        <div><span>Public Swim</span></div>
+                        <div><span>09:00 - 11:00</span></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Lane Swim 11:30 - 13:00</td>
-                    <td>Parent & Baby Class 09:30 - 10:15</td>
-                    <td>Lane Swim 12:00 - 13:00</td>
-                    <td>Lane Swim 12:00 - 13:00</td>
-                    <td>Lane Swim 12:00 - 13:00</td>
-                    <td>Parent and Baby 12:00 - 12:45</td>
-                    <td>Aquacise 11:00 - 11:45</td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span>11:30 - 13:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Parent & Baby</span></div>
+                        <div><span> Class</span></div>
+                        <div><span>09:30 - 10:15</span></div>
+                    </td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span> 12:00 - 13:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span>12:00 - 13:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Lane Swim</span></div>
+                        <div><span> 12:00 - 13:00</span></div>
+                    </td>
+                    <td>
+                        <div><span>Parent and Baby</span></div>
+                        <div><span>12:00 - 12:45</span></div>
+                    </td>
+                    <td>
+                        <div><span>Aquacise</span></div>
+                        <div><span> 11:00 - 11:45</span></div>
+                    </td>
                 </tr>
             </tbody>
         </table>
