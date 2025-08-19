@@ -1,9 +1,14 @@
   body {
             padding: 24px;
         }
+        .costum-table {
+           border-collapse: separate;
+        }
 
         .costum-table tbody {
             background-color: hsl(194.12deg 100% 40%);
+             border-spacing: 2px 10px;
+            display: table-row-group;
         }
 
         .costum-table td,
@@ -13,6 +18,10 @@
             padding-bottom: 16px;
             padding-top: 16px;
             text-align:center
+        }
+        .costum-table td{
+            width: 100px;
+            height: 100px;
         }
 
         .costum-table thead {
@@ -65,4 +74,14 @@
 
         .costum-table tbody tr:nth-child(3) td:nth-child(7) {
             background-color: hsl(332.95deg 100% 43.92%);
+        }
+        .costum-table tbody td{
+            cursor: grab;
+        }
+        .costum-table tbody td:hover{
+            color: white !important;
+            background-color: black !important;
+        }
+        .costum-table:hover{
+            box-shadow: 5px 5px 10px gray;
         }
