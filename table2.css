@@ -1,0 +1,68 @@
+  body {
+            padding: 24px;
+        }
+
+        .costum-table tbody {
+            background-color: hsl(194.12deg 100% 40%);
+        }
+
+        .costum-table td,
+        .costum-table th {
+            padding-right: 32px;
+            padding-left: 32px;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            text-align:center
+        }
+
+        .costum-table thead {
+            background-color: hsl(0deg 0% 90.98%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(6) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(1) td:nth-child(7) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(1) {
+            background-color: hsl(339.86deg 76.04% 62.35%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(2) {
+            background-color: hsl(330.41deg 100% 42.55%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(3) {
+            background-color: hsl(174.86deg 86.21% 39.8%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(4) {
+            background-color: hsl(330.41deg 100% 42.55%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(5) {
+            background-color: hsl(174.86deg 86.21% 39.8%);
+        }
+
+        .costum-table tbody tr:nth-child(2) td:nth-child(6) {
+            background-color: hsl(26.84deg 95% 47.06%);
+        }
+
+        .costum-table tbody tr:nth-child(3) {
+            background-color: hsl(76.56deg 72.44% 44.12%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(2) {
+            background-color: hsl(332.95deg 100% 43.92%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(6) {
+            background-color: hsl(332.95deg 100% 43.92%);
+        }
+
+        .costum-table tbody tr:nth-child(3) td:nth-child(7) {
+            background-color: hsl(332.95deg 100% 43.92%);
+        }
