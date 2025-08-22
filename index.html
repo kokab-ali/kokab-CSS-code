@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 {
+            border: 1px solid black;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .div2 {
+            border: 1px solid black;
+        }
+
+        .div2 div {
+            display: inline-block;
+            margin-left: 95px;
+        }
+
+        .div2 div:first-child {
+            margin-left: 0px;
+        }
+
+
+        .div3 {
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        Demo text 1
+    </div>
+    <div class="div1">
+        Demo text 2
+    </div>
+    <div class="div1">
+        Demo text 3
+    </div>
+    <div class="div1">
+        Demo text 4
+    </div>
+    <div class="div1">
+        Demo text 5
+    </div>
+    <div class="div1">
+        Demo text 6
+    </div>
+
+
+
+    <br><br>
+
+
+    <div class="div2">
+        <div>child1</div>
+        <div>child2</div>
+        <div>child3</div>
+        <div>child4</div>
+        <div>child5</div>
+        <div>child6</div>
+        <div>child7</div>
+    </div>
+
+    <br><br>
+    
+    <div class="div3">
+        <div>child0</div>
+        <div>child1</div>
+        <div>child2</div>
+        <section>ccc</section>
+
+        <span>asdfasf</span>
+        <img width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="" srcset="">
+    </div>
+</body>
+</html>

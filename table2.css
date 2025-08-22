@@ -7,7 +7,7 @@
 
         .costum-table tbody {
             background-color: hsl(194.12deg 100% 40%);
-             border-spacing: 2px 10px;
+            border-spacing: 2px 10px;
             display: table-row-group;
         }
 
