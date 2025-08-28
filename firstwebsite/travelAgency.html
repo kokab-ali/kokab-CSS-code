@@ -20,36 +20,103 @@
             margin-top: 8px;
         }
 
-        img {
-            height: 250px;
-            width: 250px;
-            margin: 90px;
-            margin-top: 4px;
-            border-bottom: 48px solid white;
-            border-radius: 8px 8px 8px 8px;
+        .travel-card {
+            height: 240px;
+            width: 240px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 10px gray;
+        }
+
+        .travel-card .location-img {
+            width: 100%;
+            height: 60%;
+            overflow: hidden;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .travel-card .location-details {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 8px;
+        }
+
+        .travel-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 100%;
+            justify-content:space-evenly;
         }
     </style>
 </head>
 
 <body>
     <h1>Travel Agency</h1>
-    <div>
-        <a href=""><span><img src="Bankok.jpeg" alt="bankok city"></span></a>
-        <a href=""><span><img src="Bali.jpeg" alt="Bali city"></span></a>
-        <a href=""><span><img src="Tokyo.jpeg" alt="Tokyo city"></span></a>
 
+    <div class="travel-body">
+
+        <div class="travel-card">
+
+            <a href=""><img class="location-img" src="Bankok.jpeg" alt="bankok city"></a>
+
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
+        <div class="travel-card">
+
+            <a href="itineray.html"><img class="location-img" src="Bali.jpeg" alt="Bali city"></a>
+
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
+        <div class="travel-card">
+
+            <a href=""><img class="location-img" src="Tokyo.jpeg" alt="Tokyo city"></a>
+
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
     </div>
+     <div class="travel-body">
 
-    <div>
+        <div class="travel-card">
 
-        <a href=""><span><img src="Zurich.jpeg" alt="Zurich city"></span></a>
-        <a href=""> <span><img src="Newdelhi.jpg" alt="Newdelhi city"></span></a>
-        <a href=""> <span><img src="Berlin.jpg" alt="Berlin city"></span></a>
+            <a href=""><img class="location-img" src="Zurich.jpeg" alt="Zurich city"></a>
 
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
+        <div class="travel-card">
 
+            <a href=""><img class="location-img" src="Bankok.jpeg" alt="bankok city"></a>
+
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
+        <div class="travel-card">
+
+            <a href=""><img class="location-img" src="Bankok.jpeg" alt="bankok city"></a>
+
+            <div class="location-details">
+                <span>2938473249</span>
+                <span>sdfhdbsh</span>
+            </div>
+        </div>
     </div>
-    </div>
-
 </body>
 
 </html>
