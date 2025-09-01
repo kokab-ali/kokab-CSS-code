@@ -18,7 +18,7 @@
             padding-top: 8px;
             display: flex;
             flex-direction: row;
-            justify-content: start;
+            justify-content: space-between;
             gap: 24px;
             background-color: hsl(204.78deg 100% 81.96%);
         }
@@ -28,6 +28,11 @@
             text-decoration: none;
             font-size: large;
             font-family: 'Times New Roman', Times, serif;
+        }
+
+        .toolbar .nav {
+            display: flex;
+            flex-direction: row;
             gap: 24px;
         }
     </style>
@@ -35,15 +40,21 @@
 
 <body>
     <div class="container">
-        <h1>Code Craft Learning</h1>
-    </div>
-    <div class="toolbar">
-        <a href="">Home</a>
-        <a href="">About us</a>
-        <a href="">Contact</a>
-        <a href="">Product</a>
-        <a href="">Register</a>
-        <a href="">Log in</a>
+        <div>
+            <h1>Code Craft Learning</h1>
+        </div>
+        <div class="toolbar">
+            <div class="nav">
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Contact</a>
+                <a href="">Product</a>
+            </div>
+            <div class="nav">
+                <a href="">Register</a>
+                <a href="">Log in</a>
+            </div>
+        </div>
     </div>
 </body>
 
