@@ -11,11 +11,8 @@
         }
 
         .toolbar {
-            margin-top: 16px;
-            padding-left: 8px;
-            padding-right: 8px;
-            padding-bottom: 8px;
-            padding-top: 8px;
+            margin-top: 8px;
+            padding: 8px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -35,14 +32,31 @@
             flex-direction: row;
             gap: 24px;
         }
+        .title{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            transform: perspective(500px) rotateX(15deg);
+        }
+        .title-super{
+            display: inline-block;
+            padding: 1px;
+            font-size: small;
+            font-weight: 100;
+            border: 1px solid black;
+            /* height: 8px; */
+            width: 14px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: bisque;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div>
-            <h1>Code Craft Learning</h1>
-        </div>
+
+        <h1 class="title">Code Craft Learning <sup class="title-super">R</sup></h1>
+
         <div class="toolbar">
             <div class="nav">
                 <a href="">Home</a>
