@@ -1,87 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <style>
-        .div1 {
-            border: 1px solid black;
-            width: 200px;
-            display: inline-block;
-        }
-
-        .div2 {
-            border: 1px solid black;
-        }
-
-        .div2 div {
-            display: inline-block;
-            margin-left: 95px;
-        }
-
-        .div2 div:first-child {
-            margin-left: 0px;
-        }
-
-
-        .div3 {
-            height: 500px;
-            border: 1px solid black;
+        .container {
             display: flex;
             flex-direction: row;
-            gap: 20px;
+            justify-content: flex-start;
+            gap: 8px;
+            margin-left: 10%;
+        }
+
+        .logo {
+            height: 64px;
+            width: 58px;
+            margin-top: 30px;
+        }
+
+        .container h1 {
+            color: hsl(0deg 0% 18.04%);
+            font-size: 48px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container sub {
+            display: flex;
             justify-content: center;
-            align-items: end;
+            color: hsl(0deg 0% 18.04%);
+            font-weight: bold;
+            margin-top: 58px;
+            margin-right: 5px;
+
+        }
+
+        .toolbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            background-color: hsl(0deg 0% 18.04%);
+            padding: 8px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            gap: 64px;
+        }
+
+        .toolbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn-admin {
+            padding: 8px;
+            background-color: hsl(36.07deg 100% 65.1%);
+            border-radius: 8px;
+        }
+
+        .pargraph-heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-left: 10%;
+            margin-top: 50px;
+            text-decoration: underline;
+        }
+
+        .section p:nth-child(1) {
+            margin-left: 10%;
+        }
+
+        .section :nth-child(2) {
+            margin-left: 10%;
+        }
+
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            gap: 24px;
+            margin-left: 10%;
+        }
+
+        .btn-dark {
+            background-color: hsl(0deg 0% 18.04%);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn-yellow {
+            background-color: hsl(36.07deg 100% 65.1%);
+            padding: 8px;
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-left: 250px
+        }
+
+        .img {
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            height: 350px;
+            width: 350px;
+            margin-top: -20%;
+            margin-left: 66%;
+        }
+       .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: hsl(36.92deg 30.23% 91.57%);
+            margin-left: 10%;
+            margin-right: 10%;
+            color: hsl(0deg 0% 18.04%);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
     </style>
 </head>
+
 <body>
-    <div class="div1">
-        Demo text 1
+    <div class="container">
+        <img class="logo" src="Logo.png" alt="Code Craft learning Logo">
+        <h1>Code Craft Learning</h1><sub>TM</sub>
     </div>
-    <div class="div1">
-        Demo text 2
+    <div class="toolbar">
+        <nav class="nav">
+            <a href="">About</a>
+            <a href="">Courses</a>
+            <a href="">Collaboration</a>
+            <a href="">Testimonials</a>
+            <a href="">Certification</a>
+            <a href="">Contact</a>
+            <a class="btn-admin" href="">Admin Login</a>
+        </nav>
     </div>
-    <div class="div1">
-        Demo text 3
+    <div class="pargraph-heading">
+        <h2>Crafting Code, Shaping Careers</h2>
     </div>
-    <div class="div1">
-        Demo text 4
+    <section class="section">
+        <p>At <strong>Code Craft Learning,</strong> we believe that anyone can become a confident, skilled <br>
+            software
+            developer with the
+            right guidance, <strong>hands-on experience,</strong> and a bit of <br>
+            creative spark.</p>
+
+        <p>Founded by industry professionals with a <strong>passion for mentoring,</strong> Code Craft <br>
+            Learning bridges the <strong>gap between
+                theory and hands-on coding.</strong> Our project- <br>
+            based learning paths are job-focused and offered at <strong>very affordable
+                prices.</strong></p>
+    </section>
+    <div class="btn">
+        <div>
+            <a class="btn-dark" href="">Book a Demo</a>
+        </div>
+        <div>
+            <a class="btn-yellow" href="">Enroll Now</a>
+        </div>
     </div>
-    <div class="div1">
-        Demo text 5
+    <div class="img">
+        <img src="img1.svg" alt="">
     </div>
-    <div class="div1">
-        Demo text 6
-    </div>
-
-
-
-    <br><br>
-
-
-    <div class="div2">
-        <div>child1</div>
-        <div>child2</div>
-        <div>child3</div>
-        <div>child4</div>
-        <div>child5</div>
-        <div>child6</div>
-        <div>child7</div>
-    </div>
-
-    <br><br>
-    
-    <div class="div3">
-        <div>child0</div>
-        <div>child1</div>
-        <div>child2</div>
-        <section>ccc</section>
-
-        <span>asdfasf</span>
-        <img width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="" srcset="">
+    <div class="footer">
+        <p>Customize Your Coding Journey</p>
     </div>
 </body>
+
 </html>
