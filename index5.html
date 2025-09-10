@@ -1,68 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            color: rgb(46 46 46);
+        }
+
+        sup {
+            font-size: 12px;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            gap: 24px;
+            background-color: black;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            align-items: center;
+            background-color: rgb(46 46 46);
+
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-cta {
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color: rgb(255 184 76);
+            color: black !important;
+            border-radius: 8px;
+            border: 0px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            font-size: 24px;
+        }
+
+        .logo {
+            height: auto;
+            width: 52px;
+        }
+
+        .content-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+        }
+
+        .content-discription {
+            color: rgb(46 46 46);
+        }
+        .content-discription h2{
+            text-decoration: underline;
+        }
+
+        .content-cta {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .content-img {
+            width: 40%;
+        }
+
+        .content-cta button:first-child {
+            padding-left: 48px;
+            padding-right: 48px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color: rgb(46 46 46);
+            color: white;
+            border-radius: 8px;
+        }
+
+        .btn-secondary {
+            padding-left: 48px;
+            padding-right: 48px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color: rgb(255 184 76);
+            color: black !important;
+            border-radius: 8px;
+            border: 0px;
+        }
+    </style>
 </head>
+
 <body>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Craft Learning</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-    <div class="logo">
-      <img class="img" src="Logo.png" alt="Code Craft Learning Logo">
-      <h1 class="h1">Code Craft Learning</h1><summary class="trade-mark">TM</summary>
-    </div>
-  
-    <nav class="nav">
-      <a href="#">About</a>
-        <a href="#">Courses</a>
-        <a href="#">Collaboration</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Certification</a>
-        <a href="#">Contact</a>
-        <a href="#" class="btn-admin">Admin Login</a>
-    </nav>
- 
+    <div>
+        <div class="title">
+            <div class="div">
+                <img class="logo" src="Logo.png" alt="Code Craft Learning Logo">
+                <h1>Code Craft Learning</h1><sup>TM</sup>
+            </div>
+        </div>
 
-  
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Crafting Code, Shaping Careers</h2>
-      <p>
-        At <strong>Code Craft Learning</strong>, we believe that anyone can become a confident,
-        skilled software developer with the right guidance, <strong>hands-on experience</strong>,
-        and a bit of creative spark.
-      </p>
-      <p>
-        Founded by industry professionals with a <strong>passion for mentoring</strong>,
-        Code Craft Learning bridges the <strong>gap between theory and hands-on coding</strong>.
-        Our project-based learning paths are job-focused and offered at
-        <strong>very affordable prices</strong>.
-      </p>
-      <div class="buttons">
-        <a href="#" class="btn-dark">Book a Demo</a>
-        <a href="#" class="btn-yellow">Enroll Now</a>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="img1.svg" alt="">
-    </div>
-  </section>
+        <nav class="nav">
+            <a href="">About</a>
+            <a href="">Courses</a>
+            <a href="">Collaboration</a>
+            <a href="">Testimonials</a>
+            <a href="">Certification</a>
+            <a href="">Contact</a>
+            <a class="nav-cta" href="">Admin Login</a>
+        </nav>
 
-  <!-- Sub Section -->
-  <section class="sub-section">
-    <h3>Customize Your Coding Journey</h3>
-  </section>
+        <div class="content-section">
+            <div class="content-area">
+                <div class="content-discription">
+                    <h2>Crafting Code, Shaping Careers</h2>
+
+                    <p>At Code Craft Learning, we believe that anyone can become a confident, skilled software developer
+                        with
+                        the right guidance, hands-on experience, and a bit of creative spark.
+                    </p>
+
+                    <p>Founded by industry professionals with a passion for mentoring, Code Craft Learning bridges the
+                        gap
+                        between theory and hands-on coding. Our project-based learning paths are job-focused and offered
+                        at very
+                        affordable prices.
+                    </p>
+                </div>
+                <div class="content-cta">
+                    <button>Book a Demo</button>
+                    <button class="btn-secondary">Enroll Now</button>
+                </div>
+            </div>
+            <div class="content-img">
+                <img src="img1.svg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
-</html>
 
-</body>
 </html>
