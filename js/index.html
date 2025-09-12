@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function removeEl(id) {
+            document.getElementById(id).remove()
+        }
+
+        function print() {
+            const value = document.getElementById("searchtext").value
+            if (!value.trim().length) {
+                return;
+            }
+            const list = document.getElementById("listItems");
+            const li = document.createElement('li');
+            li.id=value;
+            li.classList.add('list-item');
+            
+            const itemElement = document.createElement('div');
+            itemElement.classList.add('item-el');
+            const el1 = document.createElement('span');
+            el1.innerText = value;
+            
+            const el2 = document.createElement('span');
+            el2.classList.add('cursor-pointer')
+            el2.innerText="x";
+            el2.onclick = () => removeEl(value);
+            itemElement.appendChild(el1);
+            itemElement.appendChild(el2);
+            li.appendChild(itemElement);
+            list.appendChild(li);
+        }
+    </script>
+    <style>
+        .list-item .item-el {
+            display: flex;
+            gap: 20px;
+        } 
+        .list-item:hover .item-el span:first-child{
+            color: red;
+        }
+
+        .cursor-pointer {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="" id="searchtext" placeholder="search" style="padding: 5px;">
+    <button onclick="print()">Add to list</button>
+    <br>
+    <ol id="listItems">
+    </ol>
+</body>
+
+</html>

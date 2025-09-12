@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        .container .header-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+
+        .header-section .company-title {
+            font-size: 2em;
+            font-weight: 500;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+            margin-bottom: 8px;
+        }
+
+        .container .toolbar-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(167, 214, 255);
+            padding: 8px;
+        }
+
+        .toolbar-section .nav-section {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+
+        .toolbar-section .nav-section .nav-item {
+            font-size: large;
+            font-weight: 500;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: rgb(0, 28, 53);
+        }
+
+        .toolbar-section .nav-section .nav-item:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-section">
+            <span class="company-title">Code Craft Learning</span>
+        </div>
+        <div class="toolbar-section">
+            <div class="nav-section">
+                <a class="nav-item" href="">Home</a>
+                <a class="nav-item" href="">About Us</a>
+                <a class="nav-item" href="">Contact</a>
+                <a class="nav-item" href="">Product</a>
+            </div>
+            <div class="nav-section">
+                <a class="nav-item" href="">Register</a>
+                <a class="nav-item" href="">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
