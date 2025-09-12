@@ -6,214 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
+        body {
+            padding: 8px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .container{
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 12px;
-            margin-left: 10%;
-        }
-
-        .logo {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            display: block;
-            max-width: 100%;
-            height: auto;
-            width: 56px;
-        }
-
-        .container h1 {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            margin: 0;
-            font-family: Outfit, sans-serif;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 1;
-            color: hsl(0deg 0% 18.04%);
-        }
-
-        .container sub {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            position: relative;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 16px;
-            line-height: 20px;
-            color: hsl(0deg 0% 18.04%);
-
-        }
-
-        .toolbar {
-            display: flex;
-            flex-direction: row;
-            justify-content: end;
-            background-color: hsl(0deg 0% 18.04%);
-            margin: 12px;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-
-        .nav {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            padding: 12px;
-        }
-
-        .toolbar a {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            text-decoration: inherit;
-            cursor: pointer;
-            padding-left: 32px;
-            padding-right: 16px;
-            font-family: Poppins, sans-serif;
+            flex-direction: column;
+            background-color: rgb(46 46 46);
             color: white;
         }
-        .toolbar a:nth-child(7) {
-            color: hsl(0deg 0% 18.04%);
-            font-family: Poppins, sans-serif;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .btn-admin {
-            cursor: pointer;
-            border-radius: 8px;
-            padding: 8px;
-            font-family: Poppins, sans-serif;
-            font-weight: 500;
-            background-color: hsl(36.07deg 100% 65.1%);
-        }
-
-        .pargraph-heading {
+        .paragraph1 {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
-            margin-left: 10%;
-            margin-top: 50px;
-            text-decoration: underline;
+            justify-content: space-between;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .section p:nth-child(1) {
-            margin-left: 10%;
-        }
-
-        .section :nth-child(2) {
-            margin-left: 10%;
-        }
-
-        .btn {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: white;
-            text-decoration: inherit;
-            width: 40%;
-            cursor: pointer;
-            text-align: center;
-            font-family: Poppins, sans-serif;
-            font-weight: 500;
-
-        }
-
-        .btn-dark {
-            background-color: hsl(0deg 0% 18.04%);
-            color: white;
-            padding: 8px;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .btn-yellow {
-            background-color: hsl(36.07deg 100% 65.1%);
-            padding: 8px;
-            color: black;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-left: 250px
-        }
-
-        .img {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            height: 350px;
-            width: 350px;
-            margin-top: -20%;
-            margin-left: 66%;
-        }
-
-        .footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            background-color: hsl(36.92deg 30.23% 91.57%);
-            margin-left: 10%;
-            margin-right: 10%;
-            color: hsl(0deg 0% 18.04%);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <img class="logo" src="Logo.png" alt="Code Craft learning Logo">
-        <h1>Code Craft Learning</h1><sub>TM</sub>
-    </div>
-    <div class="toolbar">
-        <nav class="nav">
-            <a href="">About</a>
-            <a href="">Courses</a>
-            <a href="">Collaboration</a>
-            <a href="">Testimonials</a>
-            <a href="">Certification</a>
-            <a href="">Contact</a>
-            <a class="btn-admin" href="">Admin Login</a>
-        </nav>
-    </div>
-    <div class="pargraph-heading">
-        <h2>Crafting Code, Shaping Careers</h2>
-    </div>
-    <section class="section">
-        <p>At <strong>Code Craft Learning,</strong> we believe that anyone can become a confident, skilled <br>
-            software
-            developer with the
-            right guidance, <strong>hands-on experience,</strong> and a bit of <br>
-            creative spark.</p>
-
-        <p>Founded by industry professionals with a <strong>passion for mentoring,</strong> Code Craft <br>
-            Learning bridges the <strong>gap between
-                theory and hands-on coding.</strong> Our project- <br>
-            based learning paths are job-focused and offered at <strong>very affordable
-                prices.</strong></p>
-    </section>
-    <div class="btn">
-
-        <a class="btn-dark" href="">Book a Demo</a>
-
-        <a class="btn-yellow" href="">Enroll Now</a>
-
-    </div>
-    <div class="img">
-        <img src="img1.svg" alt="">
-    </div>
-    <div class="footer">
-        <p>Customize Your Coding Journey</p>
+        <div class="title">
+            <p>Code Craft Learning</p>
+            <p>An MSME-recognized initiative for quality tech education & career readiness</p>
+        </div>
+        <div class="paragraph1">
+            <div>
+                <p>Email</p>
+                <p>enquiry@codecraftlearning.in</p>
+            </div>
+            <div>
+                <p>Contact/Whatsapp</p>
+                <p>+91 8971481633</p>
+            </div>
+            <div>
+                <p>“The beautiful thing about learning is <br>
+                     that no one can take it away from you.”<br>
+                    — B.B. King</p>
+            </div>
+        </div>
     </div>
 </body>
 
