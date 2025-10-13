@@ -26,7 +26,7 @@ console.log(isNameSame);
 
 let value1 = 100;
 let value2 = "100";
-let isValueEqual = value1 === value2;
+let isValueEqual = value1 == value2;
 console.log(isValueEqual);
 
 let isGreater = num1 > num2;
