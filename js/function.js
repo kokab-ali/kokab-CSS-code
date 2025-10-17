@@ -63,6 +63,14 @@ let sum = addSquare(num1, num2);
 console.log(sum);
 
 
+function printKokab(name) {
+    console.log(name);
+    
+}
+
+
+printKokab('kokab');
+
 
 //addCube   =>     take 3 numbers , add ald print the sum of cube of every number
 // 2,3,4 =>   2^3 + 3^3 + 4^3 => 8 + 27 + 64 => ----
