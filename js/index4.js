@@ -81,7 +81,11 @@ function waterLevel() {
     
 
 }
+
+
 waterLevel()
+
+
 /*Rules to Implement:
 1. If the battery level is below 10%
 
@@ -124,3 +128,41 @@ AND (battery > 50% OR device is charging)
 → Print:
 "System normal. No changes required."*/
 
+
+
+    let batteryLevel = 20;
+    let isCharging = true;
+    let brightness = 80;
+    let powerSavingMode = false;
+
+
+
+
+function BatteryStatus(batteryLevel, isCharging, brightness, powerSavingMode) {
+    
+
+    if (batteryLevel < 10 && !isCharging) {
+        console.log("Battery is critically low! Turn on Ultra Power Saving Mode and reduce brightness to 10%.");
+    }
+    else if (batteryLevel >= 10 && batteryLevel <= 30 && !powerSavingMode) {
+        console.log("Battery is low. Turn ON Power Saving Mode and lower the brightness.");
+    }
+    else if (batteryLevel > 30 && batteryLevel <= 60 && brightness > 70) {
+        console.log("Battery is okay, but the brightness is too high. It is recommended to lower it.");
+    }
+    else if (batteryLevel >= 60 && isCharging) {
+        console.log("Battery is healthy. You may unplug the charger soon.");
+    }
+    else if (batteryLevel === 100 && isCharging) {
+        console.log("Battery is full! Disconnect the charger to maintain battery health.");
+    }
+    else if (powerSavingMode && (batteryLevel > 50 || isCharging)) {
+        console.log("Power Saving Mode is active, but it may not be necessary right now.");
+    }
+    else {
+        console.log("The system is normal. No changes are required.");
+    }
+}
+
+
+BatteryStatus(55, true, 45, false)
