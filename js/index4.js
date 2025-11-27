@@ -1,7 +1,7 @@
 
 
 
-function squares(number1, number2,) { // num1 and num2 ki vallue (20, 40,) 
+/*function squares(number1, number2,) { // num1 and num2 ki vallue (20, 40,) 
     let square = number1 * number1; // square = 20, x 20 = 400;
     let square2 = number2 * number2; // square2 = 40, x 40 = 1600;
     let square3 = square - square2; // square = 400, - 1600;
@@ -22,7 +22,7 @@ function temp(deegres) {
     else console.log('turnAcOn');
     
 }
-temp(20)
+temp(20)*/
 
 // If the water level is below 20%
 /*AND motorStatus is OFF
@@ -46,8 +46,42 @@ AND motorStatus is ON
 If none of the conditions match
 → Print: "System running normally. No action needed."*/
 
-Q2
 
+
+
+function waterLevel() {
+    let waterLevel = 20;
+    let Motor = 'Off';
+    let isRainy = false;
+
+    if (waterLevel < 20 && Motor === 'Off') {
+        console.log("The water level is very low. Turn on the motor immediately.");
+        
+    }
+    else if (waterLevel >= 20 && waterLevel <= 50 && isRainy === false) {
+        console.log("The water level is moderate. The motor can be kept ON if needed.");
+        
+    }
+    else if (waterLevel > 50 && waterLevel < 80) {
+        console.log("The water level is good. Keep the motor OFF to save energy.");
+        
+    }
+    else if (waterLevel >= 80) {
+        console.log("The tank is almost full. Turn off the motor now!");
+        
+    }
+    else if (isRainy === true && waterLevel > 40 && Motor === 'On') {
+        console.log("Rain detected. Turning off the motor to avoid overflow.");
+        
+    }
+    else{
+        console.log("The system is running normally. No action is needed.");
+        
+    }
+    
+
+}
+waterLevel()
 /*Rules to Implement:
 1. If the battery level is below 10%
 
@@ -89,3 +123,4 @@ AND (battery > 50% OR device is charging)
 
 → Print:
 "System normal. No changes required."*/
+
