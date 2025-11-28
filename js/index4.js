@@ -1,7 +1,7 @@
 
 
 
-/*function squares(number1, number2,) { // num1 and num2 ki vallue (20, 40,) 
+function squares(number1, number2,) { // num1 and num2 ki vallue (20, 40,) 
     let square = number1 * number1; // square = 20, x 20 = 400;
     let square2 = number2 * number2; // square2 = 40, x 40 = 1600;
     let square3 = square - square2; // square = 400, - 1600;
@@ -22,12 +22,12 @@ function temp(deegres) {
     else console.log('turnAcOn');
     
 }
-temp(20)*/
+temp(20)
 
 // If the water level is below 20%
-/*AND motorStatus is OFF
-→ Print: "Water level very low. TURN ON the motor immediately."
+/*AND motorStatus is OFF. TURN ON the motor immediately."
 
+→ Print: "Water level very low
 If the water level is between 20% and 50% (inclusive)
 AND it is NOT raining (isRainy === false)
 → Print: "Water level is moderate. Motor can stay ON if needed."
@@ -130,10 +130,7 @@ AND (battery > 50% OR device is charging)
 
 
 
-    let batteryLevel = 20;
-    let isCharging = true;
-    let brightness = 80;
-    let powerSavingMode = false;
+   
 
 
 
