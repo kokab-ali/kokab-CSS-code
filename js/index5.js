@@ -113,3 +113,17 @@ checkWeather(22, true) → Good
 checkWeather(40, false) → Bad
 */
 
+
+
+function vote(Age, VoterId) {
+    if (Age >= 18 && VoterId === true) {
+        return Allowed;
+    }
+    else{
+        return NotAllowed;
+        
+    }
+}
+console.log(vote(20, true))
+console.log(vote(16, false));
+
