@@ -178,7 +178,7 @@ largestNumber(20, 20, 2)
 
 
 function user(Username, password) {
-    if (Username === admin && password === 1234) {
+    if (Username === 'admin' && password === 1234) {
         console.log('login SuccessFull');
         
     }
@@ -202,3 +202,35 @@ function temp(temp, cloudy) {
 }
 temp(20, true)
 
+
+function Table(number) {
+    for (let i = 1; i <= 10; i ++)
+      console.log(` ${number * i}`)
+      
+        
+}
+Table(2)
+
+
+
+/*1. Factorial Function
+
+Question:
+Write a function factorial(n) that returns the factorial of a number n using recursion or loops.
+
+// Example:
+factorial(5) // 120
+
+
+Math Concept: Factorial, combinatorics.
+
+2. Fibonacci Sequence
+
+Question:
+Write a function fibonacci(n) that returns the nth Fibonacci number.
+
+// Example:
+fibonacci(7) // 13
+
+
+Math Concept: Recurrence relations, sequences.*/
