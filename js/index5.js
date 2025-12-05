@@ -31,7 +31,7 @@ Example:
 canVote(20, true) → “Allowed”
 canVote(16, true) → “Not allowed”
 
-Q2. Write a function that checks if a number is between 10 and 50
+/*Q2. Write a function that checks if a number is between 10 and 50
 
 Use the AND (&&) operator.
 
@@ -116,14 +116,63 @@ checkWeather(40, false) → Bad
 
 
 function vote(Age, VoterId) {
+
     if (Age >= 18 && VoterId === true) {
-        return Allowed;
+        console.log('Allowed');
+        
     }
     else{
-        return NotAllowed;
+        console.log('NotAllowed');
+        
         
     }
 }
-console.log(vote(20, true))
-console.log(vote(16, false));
+vote(20, true)
+
+
+function checkRange(Range) {
+    if (Range >= 10 && Range <= 50) {
+        console.log('In range');
+        
+    }
+    else{
+        console.log('Not In Range');
+        
+    }
+}
+checkRange(20)
+
+
+function chekMarks(Marks, ExtrMrakes) {
+    if (Marks >= 40 || ExtrMrakes === true) {
+        console.log('Passed');
+        
+    }
+    else{
+        console.log('Failed');
+        
+    }
+}
+chekMarks(40, true)
+
+
+function largestNumber(a, b, c) {
+    if (a > b && a > c) {
+        console.log(a, 'islargestNumber');
+        
+    }
+    else if (b > a && b > c) {
+        console.log(b, 'isLargestNumber');
+        
+    }
+    else if (c > a && c > b) {
+        console.log(c, 'isLargestNumber');
+        
+    }
+    else{
+        console.log('Two or more numbers are equal and largest');
+        
+    }
+}
+largestNumber(20, 20, 2)
 
