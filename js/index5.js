@@ -176,3 +176,29 @@ function largestNumber(a, b, c) {
 }
 largestNumber(20, 20, 2)
 
+
+function user(Username, password) {
+    if (Username === admin && password === 1234) {
+        console.log('login SuccessFull');
+        
+    }
+    else{
+        console.log('login Failed');
+        
+    }
+}
+user('admin', 1234)
+
+
+function temp(temp, cloudy) {
+    if (temp > 20 && temp < 35 || cloudy === true) {
+        console.log('Good Weather');
+        
+    }
+    else{
+        console.log('Bad Weather');
+        
+    }
+}
+temp(20, true)
+
